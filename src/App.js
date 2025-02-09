@@ -15,6 +15,7 @@ function App() {
 		students = students.filter((student) => student.id !== id);
 	}
 	console.log(students);
+	console.log('End');
 	return (
 		<Provider store={store}>
 			<div className="App">
