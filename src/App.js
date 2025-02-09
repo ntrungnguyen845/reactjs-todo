@@ -16,6 +16,7 @@ function App() {
 	}
 	console.log(students);
 	console.log('End');
+	console.log('printf Laptop');
 	return (
 		<Provider store={store}>
 			<div className="App">
